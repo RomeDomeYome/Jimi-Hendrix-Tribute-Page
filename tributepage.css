@@ -1,0 +1,106 @@
+*{
+  font-family: DynaPuff, cursive;
+}
+
+body{
+  background-color: #1e1d2c;
+  color: #abacb3;
+  width: 99%;
+}
+
+div,
+label{
+  border: 0px solid black;
+}
+
+#main{
+  padding: 10px 200px;
+}
+
+header{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#title{
+  color: #bf364a;
+}
+
+#img-div{
+  display: block;
+  align-items: center;
+  text-align: center;
+  object-fit: contain;
+  padding: auto 100px;
+}
+
+#image{
+ display: block;
+ max-width: 100%;
+ height: auto;
+ margin: 0 auto;
+ align-self: center;
+}
+
+#img-caption{
+  margin: 0px;
+  font-size: 12px;
+}
+
+#tribute-info{
+  margin-top: 20px;
+ display: flex;
+ justify-content: space-around;
+}
+
+label{
+  
+}
+
+#songs{
+  display: inline-block;
+  margin: 30px auto;
+  font-size: 24px;
+}
+
+#song-list{
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+label,
+ul,
+li{
+  text-align: center;
+}
+
+ul{
+  line-height: 40px;
+  list-style: none;
+}
+
+li{
+  line-height: 40px;
+}
+
+a{
+  color: #bf364a;
+  text-decoration: none;
+}
+
+ul li:before {  /* Taken from stackoverflow
+  couldnt figure out how to get the bullet points
+  to be centered with the text
+  https://stackoverflow.com/questions/24312415/custom-ul-li-align-bullet-to-center-as-text */      
+  content:'\25e6';
+  margin-right:5px;    
+  vertical-align:middle;
+  font-size:1.5em;
+}
+
+#youtube-logo,
+#spotify-logo{
+  height: 20px;
+  width: 20px;
+}
